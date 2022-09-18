@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
+
+@font-face {
+	font-family: "Lora";
+	src: url("../fonts/Lora-Regular.woff2") format("woff2"), url("../fonts/Lora-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Lora";
+	src: url("../fonts/Lora-Italic.woff2") format("woff2"), url("../fonts/Lora-Italic.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: italic;
+}
+@font-face {
+	font-family: "Lora";
+	src: url("../fonts/Lora-Bold.woff2") format("woff2"), url("../fonts/Lora-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Lora";
+	src: url("../fonts/Lora-BoldItalic.woff2") format("woff2"), url("../fonts/Lora-BoldItalic.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.start {
+	box-sizing: border-box;
+}
+.start mark {
+	font-family: "Lora", serif;
+	font-size: 30px;
+	color: tomato;
+	text-decoration: underline;
+	text-shadow: 2px 2px 2px #000;
+}
+.start p {
+	font-family: "Amatic", serif;
+	font-size: 30px;
+	color: chartreuse;
+	text-shadow: 10px 10px 10px #519251;
+	text-align: right;
+	text-transform: capitalize;
+	letter-spacing: 5px;
+}
+.main-title {
+	font-family: "Amatic", serif;
+	font-size: 40px;
+	font-style: italic;
+	font-weight: 700;
+	color: lawngreen;
+	text-align: center;
+	text-decoration: underline;
+	text-shadow: 5px 5px 5px #124612;
+	text-transform: uppercase;
+	line-height: 1.5;
+	letter-spacing: 5px;
+}
+mark{
+	font-family: "Lora", serif;
+	font-weight: 700;
+	font-size: 20px;
+	padding: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.start-list {
+	font-family: "Lora", serif;
+	font-style: italic;
+	font-size: 20px;
+	padding: 20px;
+	color: lightcoral;
+	text-shadow: 1px 1px 1px #654644;
+}
+.image{
+	margin: 20px;
+	width: 700px;
+}
+.cases p {
+	font-family: "Amatic", serif;
+	font-weight: 900;
+	font-size: 30px;
+	font-style: italic;
+	white-space: nowrap;
+	color: #158468;
+	text-decoration: overline;
+}
+.cases span {
+	font-family: "Lora", serif;
+	font-weight: 500;
+	font-size: 20px;
+	color: chocolate;
+	word-spacing: 5px;
+	text-decoration: underline;
+}
+.title {
+	font-family: "Lora", serif;
+	font-weight: 900;
+	font-style: italic;
+	color: cadetblue;
+	font-size: 40px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+.number-list {
+	font-family: "Amatic", serif;
+	font-size: 30px;
+	color: coral;
+	text-shadow: 15px 10px 5px #154969;
+	line-height: 50px;
+	margin: 30px;
+}
+.enemies p {
+	font-family: "Lora", serif;
+	font-weight: 700;
+	color: cornflowerblue;
+	font-size: 30px;
+	text-align: justify;
+	text-decoration: underline;
+	padding: 10px;
+}
+.enemies ol {
+	color: crimson;
+	font-weight: 20;
+	text-decoration: line-through;
+	font-family: "Amatic", serif;
+	font-weight: 900;
+}
+.enemies ul {
+	font-family: "Lora", serif;
+	font-weight: 500;
+	color: violet;
+	text-decoration: underline;
+	text-align: center;
+	text-shadow: 5px 5px 5px #561567;
+	text-transform: uppercase;
+	letter-spacing: 7px;
+	width: 500px;
+	padding: 15px;
+}
+.first-meeting p {
+	font-family: "Amatic", serif;
+	font-size: 30px;
+	color: navy;
+	text-indent: 25px;
+	text-shadow: 2px 2px 2px #000;
+	word-spacing: 7px;
+	line-height: 50px;
+	margin: 20px;
+}
+.first-meeting li {
+	padding: 20px;
+	font-family: "Lora", serif;
+	font-weight: 700;
+	font-size: 30px;
+	color: rebeccapurple;
+	word-spacing: 5px;
+	width: 700px;
+	text-shadow: -2px -2px 2px red;
+	text-align: right;
+	text-decoration: underline;
+	text-transform: capitalize;
+}
+.first-meeting mark {
+	font-size: 30px;
+	color: red;
+}
+.competition p {
+	font-family: "Amatic", serif;
+	font-weight: 700;
+	font-size: 40px;
+	color: rosybrown;
+	text-align: right;
+	text-shadow: 3px 3px 3px #165584;
+	text-transform: lowercase;
+}
+.competition li {
+	font-family: "Amatic", serif;
+	font-size: 30px;
+	color: tan;
+	word-spacing: 7px;
+	text-transform: capitalize;
+	text-align-last: left;
+	text-decoration: overline;
+	text-shadow: 5px 5px 5px #755964;
+	padding: 20px;
+}
+.relationships p {
+	font-family: "Lora", serif;
+	font-size: 40px;
+	color: royalblue;
+	text-shadow: 1px 1px 1px  #117948;
+	letter-spacing: 10px;
+	text-align: left;
+	text-decoration: line-through;
+	text-transform: uppercase;
+}
+.top {
+	font-family: "Amatic", serif;
+	font-weight: 700;
+	font-size: 50px;
+	color: teal;
+	text-align: center;
+	text-decoration: underline;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 2px purple;
+	margin-top: 20px;
+}
